@@ -34,6 +34,10 @@ public class Arrays {
         c2[0] = "Rojo";
         c2[1] = "Verde";
         c2[2] = "Amarillo";
+        //Vamos a recorrer el array colores y mostrar sus valores:
+        for(String c:colores){
+            System.out.println(c);
+        }
     }
     
 }
